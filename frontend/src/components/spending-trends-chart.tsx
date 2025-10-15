@@ -1,6 +1,6 @@
 "use client";
 
-import { Card } from "@/shared/ui/card";
+import { Card } from "@/components/ui/card";
 import {
   Line,
   LineChart,
@@ -15,8 +15,8 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/shared/ui/chart";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
+} from "@/components/ui/chart";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Transaction } from "@/shared/types/transaction";
 
 export function SpendingTrendsChart({

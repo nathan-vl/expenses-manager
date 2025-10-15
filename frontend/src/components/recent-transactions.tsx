@@ -1,7 +1,7 @@
 "use client";
 
-import { Card } from "@/shared/ui/card";
-import { Badge } from "@/shared/ui/badge";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { useTransactionStore } from "@/lib/store";
 import { ArrowDownCircle, ArrowUpCircle } from "lucide-react";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/shared/ui/button";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,7 +8,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/shared/ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 import { Plus, User, Settings, LogOut, Wallet } from "lucide-react";
 import { useTransactionStore } from "@/lib/store";
 
