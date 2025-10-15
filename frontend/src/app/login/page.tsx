@@ -1,5 +1,4 @@
 import { Input } from "@/components/ui/input";
-import "../app/globals.css";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
@@ -15,12 +14,14 @@ export default function Login() {
 
         <form className="flex flex-col space-y-3">
           <Label htmlFor="email">E-mail</Label>
-          <Input id="email" placeholder="email@email.com" />
+          <Input id="email" type="email" placeholder="email@email.com" />
 
           <Label htmlFor="password">Senha</Label>
-          <Input id="password" type="secret" placeholder="******" />
+          <Input id="password" type="password" placeholder="******" />
 
-          <Button className="w-min self-end">Entrar</Button>
+          <Button type="submit" className="w-min self-end">
+            Entrar
+          </Button>
         </form>
       </div>
     </div>

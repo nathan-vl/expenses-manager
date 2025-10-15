@@ -8,7 +8,7 @@ import { RecentTransactions } from "@/components/recent-transactions";
 import { SpendingTrendsChart } from "@/components/spending-trends-chart";
 import { useTransactionStore } from "@/lib/store";
 
-export default function Home() {
+export default function Dashboard() {
   const transactions = useTransactionStore((state) => state.transactions);
 
   return (
